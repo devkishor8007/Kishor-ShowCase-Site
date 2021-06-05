@@ -1,0 +1,21 @@
+{
+  "name": "showcase_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "make a showcase website",
+    "start": "nodemon index.js -e js,ejs,css,json"
+  },
+  "author": "kishor",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "14.16.0"
+  }
+}
