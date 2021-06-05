@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 // const dotenv = require('dotenv');
-require('dotenv').config();
+// require('dotenv').config();
 
 //call the file path
 const main = path.join(__dirname, './templates/views');
@@ -24,9 +24,9 @@ app.use('/', require('./routes/about'),);
 
 //calling port to listening server
 
-var port = process.env.PORT;
-var host = process.env.HOST;
+var port = process.env.PORT || 5000;
+// var host = process.env.HOST;
 
-app.listen(port, host, () => {
-    console.log(`Server is listening ${host} ${port}`);
+app.listen(port, () => {
+    console.log(`Server is listening ${port}`);
 });
