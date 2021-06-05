@@ -1,5 +1,9 @@
 # Kishor ShowCase Site
-A sample project using Node JS, Express JS, EJS View Engine, Bootstrap, HTML, CSS.
+A sample project Kishor ShowCase Site using Node JS, Express JS, EJS View Engine, Bootstrap, HTML, CSS.
+
+Express.js is a framework of Node.js. It is a Open Source Software which is free, lightweight and flexible.Throught express.js, We can build single page,multiple page or hybrid web application.
+# To Install the Express.js Dpendencies
+```npm install express ```
 
 Check the output.
 https://kishorshowcasesite.herokuapp.com/
