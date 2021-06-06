@@ -4,14 +4,11 @@ A sample project Kishor ShowCase Site using Node JS, Express JS, EJS View Engine
 Express.js is a framework of Node.js. It is a Open Source Software which is free, lightweight and flexible. Throught express.js, We can build single page,multiple page or hybrid web application.
 
 Also, This project is on the heroku server and the link is <br>
-```https://kishorshowcasesite.herokuapp.com/```
+https://kishorshowcasesite.herokuapp.com/
 
 
 # To Install the Express.js Dependencies
 ```npm install express ```
-
-
-
 
 ## Development Setup
 
@@ -24,17 +21,23 @@ Also, This project is on the heroku server and the link is <br>
 4. Open any browser - localhost:5000
 5. And change the code as per your need.
 
-FInal Output ShowCase Site.
-<p>
-  <img src="https://user-images.githubusercontent.com/73419211/120900423-7193db80-c654-11eb-82e3-bde2c272a0f0.png" height="500" width="100%">
-  <img src="https://user-images.githubusercontent.com/73419211/120900543-ef57e700-c654-11eb-9dcc-503507f797af.png" height="500" width="100%">
-  <img src="https://user-images.githubusercontent.com/73419211/120900756-4c07d180-c656-11eb-8d4f-0f5a1e25fc14.png" height="500" width="100%">
-  <img src="https://user-images.githubusercontent.com/73419211/120900802-ad2fa500-c656-11eb-8863-014d396951eb.png" height="500" width="100%">
+## Some Terminology
 
+### Node.js
+```Node.js``` is a JavaScript runtime environment that runs on the V8 engine. It is ```Open Source Software``` and uses JS on the server.<br>
+[Check the Official Document](https://nodejs.org/en/)
 
+### Express.js
+```Express.js``` is a framework of Node.js. It is ```Open Source Software``` which is fast, robust and asynchronous in nature.<br>
+[Check the Official Document](https://expressjs.com/)
 
+### EJS
+```EJS``` stands for Embedded JavaScript, template view engines for Node.js and Express.js. You can use it ```both server-side or 
+client-side```<br>
+[Check the Official Document](https://ejs.co/)
 
-</p>
-
+### Nodemon
+```Nodemon``` is a Node packet manager which help to ```restarts the application whenever you need to changes in the file in the working  directory of your project```<br>
+[Check the Official Document](https://nodemon.io/)
 
 
