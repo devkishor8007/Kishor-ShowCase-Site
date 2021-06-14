@@ -1,7 +1,7 @@
 const express = require('express');
 const UserLogin = require('../model/user');
 const route = express.Router();
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const passport = require('passport');
 
 //authentication strategy
