@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "make a showcase website",
-    "start": "nodemon index.js -e js,ejs,css,json"
+    "start": "node index.js"
   },
   "author": "kishor",
   "license": "ISC",
