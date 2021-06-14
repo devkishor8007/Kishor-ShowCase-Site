@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="/css/indexStyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="col-sm-4 mt-5 col-md-6 mx-auto">
+        <h4>Create an Account</h4>
+        <% if(typeof err !='undefined' ){ %>
+            <div class="alert alert-dismissible alert-danger">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>
+                    <%= err %>
+                </strong>
+            </div>
+            <% } %>
+                <form method="POST" action="/signup">
+                    <div class="form-group mb-3">
+                        <label for="username" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="username" name="username" autocomplete="off"
+                            placeholder="Username">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" autocomplete="off" placeholder="Email"
+                            name="email">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" autocomplete="off"
+                            placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+    </div>
+    <!-- bootstrap close js and css  -->
+
+    <%- include('../partials/booStrap_script.ejs'); -%>
+</body>
+<style>
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: white;
+    }
+</style>
+
+</html>

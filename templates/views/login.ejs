@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="/css/indexStyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="col-sm-4 mt-5 col-md-6 mx-auto">
+        <h4>Login Form</h4>
+        <form method="POST" action="/login">
+            <% if (success_message !='' ){ %>
+                <div class="alert alert-dismissible alert-success">
+                    <button type="button" class="btn-close" data-dismiss="alert">&times;</button>
+                    <strong>
+                        <%= success_message %>
+                    </strong>
+                </div>
+
+                <% } %>
+                    <% if( error !='' ){ %>
+                        <div class="alert alert-dismissible alert-danger">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <strong>
+                                <%= error %>
+                            </strong>
+                        </div>
+                        <% } %>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                    name="email">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" name="password">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <div class="text-center">Don't have an account?<a href="/signup"> Join</a></div>
+        </form>
+    </div>
+    <div class="py-2"></div>
+
+
+
+    <!-- bootstrap close js and css  -->
+    <%- include('../partials/booStrap_script.ejs'); -%>
+</body>
+<style>
+    a:hover {
+        text-decoration: none;
+    }
+</style>
+
+</html>

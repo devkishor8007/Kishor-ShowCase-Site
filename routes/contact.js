@@ -6,5 +6,4 @@ route.get('/contact', (req, res) => {
     res.render('contact');
 });
 
-
 module.exports = route;
