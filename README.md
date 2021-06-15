@@ -1,5 +1,5 @@
 # Kishor ShowCase Site
-A sample project Kishor ShowCase Site using Node JS with EJS View Engine
+A sample project Kishor ShowCase Site using Node JS, Express Js and MongoDB with EJS View Engine
 
 Express.js is a framework of Node.js. It is a Open Source Software which is free, lightweight and flexible. Throught express.js, We can build single page,multiple page or hybrid web application.
 
@@ -47,6 +47,7 @@ https://kishorshowcasesite.herokuapp.com/
 
 - ### Chunk of the UI/UX - added and changes
 - ### Login and Signup with Passport Auth
+- ### Use MongoDB database.
 - ### Hashing the password
 - ### Session and Cookies
 
