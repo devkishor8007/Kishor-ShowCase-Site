@@ -39,12 +39,13 @@ https://kishorshowcasesite.herokuapp.com/
 ## In 6 June, 2021 
 
 - ### Simple Showcase Site Using Node.js , Express.js with EJS.
+- ### Not focused on UI/UX
 
 ##
 
 ## Current Changes 15 June, 2021 
 
-- ### chunk of UI/UX added and changes
+- ### Chunk of the UI/UX - added and changes
 - ### Login and Signup with Passport Auth
 - ### Hashing the password
 - ### Session and Cookies
