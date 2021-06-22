@@ -15,14 +15,38 @@
 
 <body>
     <%- include('../partials/login_navbar.ejs'); -%>
+
         <blockquote class="blockquote mx-5 pt-3">
             <p>
-                Soon I will be uploading some Course, <%= user.username %>!
+                <%= question %>
             </p>
         </blockquote>
-        <!-- footer  -->
-        <!-- bootstrap close js and css  -->
-        <%- include('../partials/booStrap_script.ejs'); -%>
+
+
+        <!-- new things  -->
+
+        <% fiveHelp.forEach(function(item){ %>
+            <div class="mx-5 toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto">
+                        ShowCase Site
+                    </strong>
+
+                    <!-- <small>11 mins ago</small> -->
+                </div>
+                <div class="toast-body">
+                    <%= item %>
+                </div>
+            </div>
+            <% }); %>
+
+
+
+                <!-- bootstrap close js and css  -->
+
+                <%- include('../partials/booStrap_script.ejs'); -%>
+
+
 </body>
 
 </html>

@@ -14,5 +14,4 @@ route.get('/course', checkAuthenticated, (req, res) => {
     res.render('course', { 'user': req.user });
 });
 
-
 module.exports = route;

@@ -55,6 +55,8 @@ app.use('/', require('./routes/course'),);
 app.use('/', require('./routes/indexx'),);
 app.use('/', require('./routes/logout'),);
 app.use('/', require('./routes/successhome'),);
+app.use('/', require('./routes/emailLetter'),);
+app.use('/', require('./routes/reading'),);
 
 //calling port to listening server
 var port = process.env.PORT || 5000;
