@@ -1,5 +1,5 @@
 # Kishor ShowCase Site
-A sample project Kishor ShowCase Site using Node JS with EJS View Engine
+A sample project Kishor ShowCase Site using Node JS, Express Js and MongoDB with EJS View Engine
 
 Express.js is a framework of Node.js. It is a Open Source Software which is free, lightweight and flexible. Throught express.js, We can build single page,multiple page or hybrid web application.
 
@@ -13,13 +13,45 @@ https://kishorshowcasesite.herokuapp.com/
 ## Development Setup
 
 1. Clone or Download
-2. Install dependencies: 
--  ejs
--  express
--  nodemon
-3. type npm start in the CLI
-4. Open any browser - localhost:5000
-5. And change the code as per your need.
+2. Use dependencies: 
+- bcryptjs
+- connect-flash
+- cookie-parser
+- dotenv
+- ejs
+- express
+- express-session
+- mongoose3
+- nodemon
+- passport
+- passport-local
+
+4. make .env directory
+- SECRET_KEY = write your secret key
+- Mongo = write your MongoDB connection URL
+
+5. type npm start in the CLI
+6. Open any browser - localhost:5000
+7. And change the code as per your need.
+
+##
+
+## In 6 June, 2021 
+
+- ### Simple Showcase Site Using Node.js , Express.js with EJS.
+- ### Not focused on UI/UX
+
+##
+
+## Current Changes 15 June, 2021 
+
+- ### Chunk of the UI/UX - added and changes
+- ### Login and Signup with Passport Auth
+- ### Use MongoDB database.
+- ### Hashing the password
+- ### Session and Cookies
+
+##
 
 ## Some Terminology
 
@@ -39,5 +71,11 @@ client-side```<br>
 ### Nodemon
 ```Nodemon``` is a Node packet manager which help to ```restarts the application whenever you need to changes in the file in the working  directory of your project```<br>
 [Check the Official Document](https://nodemon.io/)
+
+### Bcryptjs
+```Bcryptjs``` is a Node packet manager which is ```secured way to store passwords in my database ```<br>
+[Check the Document](https://preview.npmjs.com/package/bcryptjs/v/1.0.1)
+
+
 
 
