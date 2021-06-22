@@ -43,13 +43,21 @@ https://kishorshowcasesite.herokuapp.com/
 
 ##
 
-## Current Changes 15 June, 2021 
+## In 15 June, 2021 
 
 - ### Chunk of the UI/UX - added and changes
-- ### Login and Signup with Passport Auth
-- ### Use MongoDB database.
+- ### Login, Logout and Signup with Passport Auth
+- ### Using MongoDB database.
 - ### Hashing the password
 - ### Session and Cookies
+
+##
+
+## Current Update 22 June, 2021
+ 
+- ### Contact Section working properly
+- ### Newsletter Email Section working properly
+- ### Blog can be read
 
 ##
 
